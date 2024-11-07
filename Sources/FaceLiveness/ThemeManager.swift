@@ -58,7 +58,6 @@ public class ThemeManager {
 
 
 extension ThemeManager {
-	
 	// Public functions to modify the colors
 	public func setLivenessPrimaryBackground(light: Color, dark: Color) {
 		livenessPrimaryBackground = Color.dynamicColors(light: light, dark: dark)
